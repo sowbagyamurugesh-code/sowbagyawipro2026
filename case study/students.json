@@ -1,0 +1,50 @@
+[
+    {
+        "id": "S101",
+        "name": "SOWBAGYA",
+        "department": "CSE",
+        "semester": 5,
+        "marks": [
+            70,
+            80,
+            90,
+            70,
+            70
+        ],
+        "courses": [
+            "CS401"
+        ]
+    },
+    {
+        "id": "S102",
+        "name": "RESHMI",
+        "department": "CSE",
+        "semester": 5,
+        "marks": [
+            90,
+            80,
+            70,
+            86,
+            76
+        ],
+        "courses": [
+            "CS401"
+        ]
+    },
+    {
+        "id": "S103",
+        "name": "SWATHI",
+        "department": "CSE",
+        "semester": 5,
+        "marks": [
+            70,
+            70,
+            70,
+            70,
+            70
+        ],
+        "courses": [
+            "CS401"
+        ]
+    }
+]
