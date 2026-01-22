@@ -38,16 +38,13 @@ class Circle(Shape):
 # Method overriding
 calc = Calculator()
 calc.add(5, 3)
-
 adv_calc = AdvancedCalculator()
 adv_calc.add(5, 3)
-
 # Operator overloading
 num1 = Number(10)
 num2 = Number(20)
 num3 = num1 + num2
 print("Operator overloading result:", num3)
-
 # Polymorphism
 shapes = [Square(4), Circle(3)]
 for shape in shapes:
