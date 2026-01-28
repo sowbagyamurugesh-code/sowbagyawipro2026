@@ -14,5 +14,5 @@ print(next(gen))
 def count(n):
     for i in range(10,n+1):
         yield i
-for val in count(20):
+for val in count(15):
     print(val)

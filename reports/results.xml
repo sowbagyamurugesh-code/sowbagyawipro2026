@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="3" failures="0" skipped="0" tests="3" time="0.317" timestamp="2026-01-28T18:14:10.333059+05:30" hostname="LAPTOP-1CPJL1S4"><testcase classname="" name="Day 9 lab.Q2.test_calculator" time="0.000"><error message="collection failure">import file mismatch:
+imported module 'test_calculator' has this __file__ attribute:
+  C:\Users\91934\PyCharmMiscProject\Day 10 lab\Q1\test_calculator.py
+which is not the same as the test file we want to collect:
+  C:\Users\91934\PyCharmMiscProject\Day 9 lab\Q2\test_calculator.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules</error></testcase><testcase classname="" name="Day11.tests.test_auth" time="0.000"><error message="collection failure">ImportError while importing test module 'C:\Users\91934\PyCharmMiscProject\Day11\tests\test_auth.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Day11\tests\test_auth.py:2: in &lt;module&gt;
+    from Day11.auth import login
+E   ModuleNotFoundError: No module named 'Day11'</error></testcase><testcase classname="" name="Day11.tests.test_calculator_11" time="0.000"><error message="collection failure">ImportError while importing test module 'C:\Users\91934\PyCharmMiscProject\Day11\tests\test_calculator_11.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Day11\tests\test_calculator_11.py:1: in &lt;module&gt;
+    from Day11.calculator import multiply
+E   ModuleNotFoundError: No module named 'Day11'</error></testcase></testsuite></testsuites>
