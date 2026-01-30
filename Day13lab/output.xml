@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.12.3 on win32)" generated="2026-01-30T17:18:01.450937" rpa="false" schemaversion="5">
+<suite id="s1" name="Q2" source="C:\Users\91934\PyCharmMiscProject\Day13lab\q2.robot">
+<status status="SKIP" start="2026-01-30T17:18:01.452938" elapsed="0.282985"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Q2" id="s1" pass="0" fail="0" skip="0">Q2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

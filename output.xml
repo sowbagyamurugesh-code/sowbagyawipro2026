@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.12.3 on win32)" generated="2026-01-29T17:26:51.430937" rpa="false" schemaversion="5">
+<suite id="s1" name="Q2" source="C:\Users\91934\PyCharmMiscProject\Day12lab\q2.robot">
+<test id="s1-t1" name="Verify Environment Setup" line="6">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Starting environment verification...</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-29T17:26:51.861717" elapsed="0.001002"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Python is available in the system</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-29T17:26:51.862719" elapsed="0.001003"/>
+</kw>
+<kw name="Get Variable Value" owner="BuiltIn">
+<msg time="2026-01-29T17:26:51.865727" level="INFO">${rf_version} = None</msg>
+<var>${rf_version}</var>
+<arg>${ROBOT_VERSION}</arg>
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<status status="PASS" start="2026-01-29T17:26:51.863722" elapsed="0.002005"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-29T17:26:51.865727" level="INFO">Robot Framework Version: None</msg>
+<arg>Robot Framework Version: ${rf_version}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-29T17:26:51.865727" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Robot Framework Version: ${rf_version}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-29T17:26:51.866725" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-29T17:26:51.866725" level="INFO">SeleniumLibrary imported successfully</msg>
+<arg>SeleniumLibrary imported successfully</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-29T17:26:51.866725" elapsed="0.001512"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>SeleniumLibrary is available</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-29T17:26:51.868237" elapsed="0.003035"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Environment verification completed successfully</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-29T17:26:51.871272" elapsed="0.000994"/>
+</kw>
+<status status="PASS" start="2026-01-29T17:26:51.860210" elapsed="0.013053"/>
+</test>
+<status status="PASS" start="2026-01-29T17:26:51.432947" elapsed="0.440316"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Q2" id="s1" pass="1" fail="0" skip="0">Q2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
