@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.12.3 on win32)" generated="2026-02-03T17:42:51.941112" rpa="false" schemaversion="5">
+<suite id="s1" name="Patient Registration" source="C:\Users\91934\PycharmProjects\Hospital Management System\robot_tests\tests\patient_registration.robot">
+<kw name="Open Hospital Site" owner="keywords" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-03T17:42:52.327847" level="INFO">Opening browser 'chrome' to base url 'file:///C:/Users/91934/PycharmProjects/Hospital%20Management%20System/web/register.html'.</msg>
+<arg>file:///C:/Users/91934/PycharmProjects/Hospital%20Management%20System/web/register.html</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-03T17:42:52.327847" elapsed="2.203702"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-03T17:42:54.531549" elapsed="0.102677"/>
+</kw>
+<status status="PASS" start="2026-02-03T17:42:52.326847" elapsed="2.307379"/>
+</kw>
+<test id="s1-t1" name="Register Patient" line="8">
+<kw name="Fill Patient Form" owner="keywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-03T17:42:54.638241" level="INFO">Typing text 'John' into text field 'id=name'.</msg>
+<arg>id=name</arg>
+<arg>John</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-03T17:42:54.636225" elapsed="0.432750"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-03T17:42:55.069990" level="INFO">Typing text '35' into text field 'id=age'.</msg>
+<arg>id=age</arg>
+<arg>35</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-03T17:42:55.068975" elapsed="0.273258"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-03T17:42:55.343235" level="INFO">Clicking element 'xpath=//input[@value='Male']'.</msg>
+<arg>xpath=//input[@value='Male']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-03T17:42:55.343235" elapsed="0.097555"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-03T17:42:55.440790" level="INFO">Typing text '9876543210' into text field 'id=contact'.</msg>
+<arg>id=contact</arg>
+<arg>9876543210</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-03T17:42:55.440790" elapsed="0.174303"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-03T17:42:55.616094" level="INFO">Typing text 'Fever' into text field 'id=disease'.</msg>
+<arg>id=disease</arg>
+<arg>Fever</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-03T17:42:55.615093" elapsed="0.159034"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2026-02-03T17:42:55.775123" level="INFO">Selecting options from selection list 'id=doctor' by label Dr. Kumar.</msg>
+<arg>id=doctor</arg>
+<arg>Dr. Kumar</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2026-02-03T17:42:55.774127" elapsed="0.134267"/>
+</kw>
+<status status="PASS" start="2026-02-03T17:42:54.636225" elapsed="1.272169"/>
+</kw>
+<kw name="Submit Form" owner="keywords">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-03T17:42:55.909416" level="INFO">Clicking button 'xpath=//button[text()='Submit']'.</msg>
+<arg>xpath=//button[text()='Submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-03T17:42:55.909416" elapsed="0.162006"/>
+</kw>
+<status status="PASS" start="2026-02-03T17:42:55.908394" elapsed="0.165120"/>
+</kw>
+<status status="PASS" start="2026-02-03T17:42:54.635231" elapsed="1.438283"/>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-03T17:42:56.079108" elapsed="2.388112"/>
+</kw>
+<status status="PASS" start="2026-02-03T17:42:51.943110" elapsed="6.524110"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Patient Registration" id="s1" pass="1" fail="0" skip="0">Patient Registration</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

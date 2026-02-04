@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "vignesh",
+        "age": 24,
+        "gender": "Male",
+        "contact": "7896541235",
+        "disease": "fever",
+        "doctor": "Dr. Kumar"
+    },
+    {
+        "id": 2,
+        "name": "sowbagya",
+        "age": 23,
+        "gender": "Female",
+        "contact": "9456871235",
+        "disease": "cold",
+        "doctor": "Dr. Smith"
+    }
+]

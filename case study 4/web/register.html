@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Registration</title>
+</head>
+<body>
+
+<h2>Patient Registration Form</h2>
+
+<form id="patientForm">
+    Name: <input type="text" id="name" required><br><br>
+
+    Age: <input type="number" id="age" required><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male" required> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    Contact Number: <input type="text" id="contact" required><br><br>
+
+    Disease: <input type="text" id="disease" required><br><br>
+
+    Doctor Assigned:
+    <select id="doctor" required>
+        <option value="">--Select Doctor--</option>
+        <option value="Dr. Kumar">Dr. Kumar</option>
+        <option value="Dr. Smith">Dr. Smith</option>
+    </select>
+    <br><br>
+
+    <button type="button" onclick="submitForm()">Submit</button>
+</form>
+
+<p id="message" style="font-weight:bold;"></p>
+
+<script>
+function submitForm() {
+
+    let name = document.getElementById("name").value;
+    let age = document.getElementById("age").value;
+    let contact = document.getElementById("contact").value;
+    let disease = document.getElementById("disease").value;
+    let doctor = document.getElementById("doctor").value;
+
+    let genderElement = document.querySelector('input[name="gender"]:checked');
+
+    if (!name || !age || !contact || !disease || !doctor || !genderElement) {
+        document.getElementById("message").innerText = " Please fill all fields!";
+        document.getElementById("message").style.color = "red";
+        return;
+    }
+
+    let gender = genderElement.value;
+
+    let patientData = {
+        name: name,
+        age: parseInt(age),
+        gender: gender,
+        contact: contact,
+        disease: disease,
+        doctor: doctor
+    };
+
+    fetch("http://127.0.0.1:5000/api/patients", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify(patientData)
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log("Response from API:", data);
+
+        document.getElementById("message").innerText =
+            "Patient Registered Successfully! ID: " + data.id;
+
+        document.getElementById("message").style.color = "green";
+
+        alert("Patient Added Successfully!\n\n" + JSON.stringify(data, null, 2));
+
+        document.getElementById("patientForm").reset();
+    })
+    .catch(error => {
+        console.error("Error:", error);
+
+        document.getElementById("message").innerText =
+            "Error submitting patient data! Check API server.";
+
+        document.getElementById("message").style.color = "red";
+
+        alert("Error: API not reachable!");
+    });
+}
+</script>
+
+</body>
+</html>
