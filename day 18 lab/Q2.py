@@ -16,7 +16,7 @@ driver.switch_to.frame("mce_0_ifr")
 
 text_box = driver.find_element(By.ID, "tinymce")
 
-# Clear using CTRL+A and DELETE 
+# Clear using CTRL+A and DELETE
 text_box.send_keys(Keys.CONTROL + "a")
 text_box.send_keys(Keys.DELETE)
 
