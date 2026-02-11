@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "restaurant_id": 1,
+        "name": "Idly",
+        "type": "Breakfast",
+        "price": 30,
+        "available_time": "Morning",
+        "enabled": true
+    },
+    {
+        "id": 2,
+        "restaurant_id": 1,
+        "name": "Dosa",
+        "type": "Breakfast",
+        "price": 50,
+        "available_time": "Morning",
+        "enabled": true
+    },
+    {
+        "id": 3,
+        "restaurant_id": 2,
+        "name": "Chicken Biryani",
+        "type": "Lunch",
+        "price": 180,
+        "available_time": "Afternoon",
+        "enabled": true
+    },
+    {
+        "id": 4,
+        "restaurant_id": 3,
+        "name": "Cheese Pizza",
+        "type": "Fast Food",
+        "price": 250,
+        "available_time": "All Day",
+        "enabled": true
+    },
+    {
+        "id": 5,
+        "restaurant_id": 1,
+        "name": "Pizza",
+        "type": "Fast Food",
+        "price": 120,
+        "available_time": "Night",
+        "enabled": true
+    },
+    {
+        "id": 6,
+        "restaurant_id": 1,
+        "name": "Pizza",
+        "type": "Fast Food",
+        "price": 120,
+        "available_time": "Night",
+        "enabled": true
+    },
+    {
+        "id": 7,
+        "restaurant_id": 1,
+        "name": "Pizza",
+        "type": "Fast Food",
+        "price": 120,
+        "available_time": "Night",
+        "enabled": true
+    }
+]

@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-# Given dataset
 students = [
     {"name": "Alice", "score": 85},
     {"name": "Bob", "score": 92},

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Sowbagya",
+        "email": "sowbagya@gmail.com",
+        "password": "12345"
+    },
+    {
+        "id": 2,
+        "name": "Reshmi",
+        "email": "reshmi@gmail.com",
+        "password": "12345"
+    },
+    {
+        "id": 3,
+        "name": "UserJSON",
+        "email": "userjson@gmail.com",
+        "password": "12345"
+    },
+    {
+        "id": 4,
+        "name": "RobotUser",
+        "email": "robotjson@gmail.com",
+        "password": "12345"
+    },
+    {
+        "id": 5,
+        "name": "RobotUser3637",
+        "email": "robot3637@gmail.com",
+        "password": "12345"
+    },
+    {
+        "id": 6,
+        "name": "RobotUser9749",
+        "email": "robot9749@gmail.com",
+        "password": "12345"
+    },
+    {
+        "id": 7,
+        "name": "Priya",
+        "email": "priya2026@gmail.com",
+        "password": "priya@123"
+    }
+]
