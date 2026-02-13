@@ -34,5 +34,11 @@
         "order_id": 12,
         "rating": 5,
         "comment": "Very tasty fried rice!"
+    },
+    {
+        "id": 7,
+        "order_id": 12,
+        "rating": 5,
+        "comment": "Very tasty fried rice!"
     }
 ]

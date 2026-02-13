@@ -98,5 +98,14 @@
             "Chicken Fried Rice"
         ],
         "status": "Pending"
+    },
+    {
+        "id": 13,
+        "user_id": 7,
+        "restaurant_id": 8,
+        "dishes": [
+            "Chicken Fried Rice"
+        ],
+        "status": "Pending"
     }
 ]

@@ -66,9 +66,18 @@
         "id": 8,
         "name": "New Moon Restaurant Updated",
         "category": "Non-Veg",
-        "location": "OMR Chennai",
+        "location": "OMR",
         "contact": "9000099999",
         "is_active": false,
         "is_approved": true
+    },
+    {
+        "id": 9,
+        "name": "Ponram",
+        "category": "Non-Veg",
+        "location": "Dindigul",
+        "contact": "9123489789",
+        "is_active": false,
+        "is_approved": false
     }
 ]
