@@ -46,5 +46,23 @@
         "name": "Neha",
         "email": "neha2026@gmail.com",
         "password": "neha@123"
+    },
+    {
+        "id": 9,
+        "name": "RobotUser7758",
+        "email": "robot7758@gmail.com",
+        "password": "12345"
+    },
+    {
+        "id": 10,
+        "name": "RobotUser7173",
+        "email": "robot7173@gmail.com",
+        "password": "12345"
+    },
+    {
+        "id": 11,
+        "name": "RobotUser6826",
+        "email": "robot6826@gmail.com",
+        "password": "12345"
     }
 ]

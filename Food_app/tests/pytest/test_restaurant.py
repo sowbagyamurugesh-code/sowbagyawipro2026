@@ -7,7 +7,7 @@ def test_register_restaurant():
         "name": "Test Restaurant JSON",
         "category": "Veg",
         "location": "Chennai",
-        "images": "img.png",
+
         "contact": "9999999999"
     }
 

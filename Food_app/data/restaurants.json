@@ -5,7 +5,7 @@
         "category": "Veg",
         "location": "Chennai",
         "contact": "9876543210",
-        "is_active": true,
+        "is_active": false,
         "is_approved": true
     },
     {
@@ -78,6 +78,33 @@
         "location": "Dindigul",
         "contact": "9123489789",
         "is_active": false,
+        "is_approved": false
+    },
+    {
+        "id": 10,
+        "name": "RobotRest1064",
+        "category": "Veg",
+        "location": "Chennai",
+        "contact": "9876543210",
+        "is_active": true,
+        "is_approved": false
+    },
+    {
+        "id": 11,
+        "name": "RobotRest3178",
+        "category": "Veg",
+        "location": "Chennai",
+        "contact": "9876543210",
+        "is_active": true,
+        "is_approved": false
+    },
+    {
+        "id": 12,
+        "name": "RobotRest2353",
+        "category": "Veg",
+        "location": "Chennai",
+        "contact": "9876543210",
+        "is_active": true,
         "is_approved": false
     }
 ]

@@ -1,14 +1,5 @@
 [
     {
-        "id": 1,
-        "restaurant_id": 1,
-        "name": "Idly",
-        "type": "Breakfast",
-        "price": 30,
-        "available_time": "Morning",
-        "enabled": true
-    },
-    {
         "id": 2,
         "restaurant_id": 1,
         "name": "Dosa",
@@ -60,6 +51,105 @@
         "type": "Fast Food",
         "price": 120,
         "available_time": "Night",
+        "enabled": false
+    },
+    {
+        "id": 8,
+        "restaurant_id": 1,
+        "name": "Robot Dish",
+        "type": "Lunch",
+        "price": "120",
+        "available_time": "Afternoon",
+        "enabled": true
+    },
+    {
+        "id": 9,
+        "restaurant_id": 1,
+        "name": "Robot Dish Updated",
+        "type": "Dinner",
+        "price": "200",
+        "available_time": "Evening",
+        "enabled": true
+    },
+    {
+        "id": 10,
+        "restaurant_id": 1,
+        "name": "Robot Dish3",
+        "type": "Snack",
+        "price": "80",
+        "available_time": "Evening",
+        "enabled": false
+    },
+    {
+        "id": 11,
+        "restaurant_id": 1,
+        "name": "Robot Dish4",
+        "type": "Breakfast",
+        "price": "60",
+        "available_time": "Morning",
+        "enabled": true
+    },
+    {
+        "id": 12,
+        "restaurant_id": 1,
+        "name": "Pizza",
+        "type": "Fast Food",
+        "price": 120,
+        "available_time": "Night",
+        "enabled": true
+    },
+    {
+        "id": 13,
+        "restaurant_id": 1,
+        "name": "Pizza",
+        "type": "Fast Food",
+        "price": 120,
+        "available_time": "Night",
+        "enabled": true
+    },
+    {
+        "id": 14,
+        "restaurant_id": 1,
+        "name": "Pizza",
+        "type": "Fast Food",
+        "price": 120,
+        "available_time": "Night",
+        "enabled": true
+    },
+    {
+        "id": 15,
+        "restaurant_id": 1,
+        "name": "Robot Dish",
+        "type": "Lunch",
+        "price": "120",
+        "available_time": "Afternoon",
+        "enabled": true
+    },
+    {
+        "id": 16,
+        "restaurant_id": 1,
+        "name": "Robot Dish Updated",
+        "type": "Dinner",
+        "price": "200",
+        "available_time": "Evening",
+        "enabled": true
+    },
+    {
+        "id": 17,
+        "restaurant_id": 1,
+        "name": "Robot Dish3",
+        "type": "Snack",
+        "price": "80",
+        "available_time": "Evening",
+        "enabled": false
+    },
+    {
+        "id": 18,
+        "restaurant_id": 1,
+        "name": "Robot Dish4",
+        "type": "Breakfast",
+        "price": "60",
+        "available_time": "Morning",
         "enabled": true
     }
 ]
