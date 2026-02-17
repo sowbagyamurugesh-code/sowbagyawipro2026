@@ -106,5 +106,14 @@
         "contact": "9876543210",
         "is_active": true,
         "is_approved": false
+    },
+    {
+        "id": 13,
+        "name": "RobotRest7195",
+        "category": "Veg",
+        "location": "Chennai",
+        "contact": "9876543210",
+        "is_active": true,
+        "is_approved": false
     }
 ]

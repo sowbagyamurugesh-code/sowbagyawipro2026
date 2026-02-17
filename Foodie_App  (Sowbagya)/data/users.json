@@ -64,5 +64,11 @@
         "name": "RobotUser6826",
         "email": "robot6826@gmail.com",
         "password": "12345"
+    },
+    {
+        "id": 12,
+        "name": "RobotUser2794",
+        "email": "robot2794@gmail.com",
+        "password": "12345"
     }
 ]

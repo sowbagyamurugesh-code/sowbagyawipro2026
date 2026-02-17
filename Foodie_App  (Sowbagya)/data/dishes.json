@@ -151,5 +151,50 @@
         "price": "60",
         "available_time": "Morning",
         "enabled": true
+    },
+    {
+        "id": 19,
+        "restaurant_id": 1,
+        "name": "Pizza",
+        "type": "Fast Food",
+        "price": 120,
+        "available_time": "Night",
+        "enabled": true
+    },
+    {
+        "id": 20,
+        "restaurant_id": 1,
+        "name": "Robot Dish",
+        "type": "Lunch",
+        "price": "120",
+        "available_time": "Afternoon",
+        "enabled": true
+    },
+    {
+        "id": 21,
+        "restaurant_id": 1,
+        "name": "Robot Dish Updated",
+        "type": "Dinner",
+        "price": "200",
+        "available_time": "Evening",
+        "enabled": true
+    },
+    {
+        "id": 22,
+        "restaurant_id": 1,
+        "name": "Robot Dish3",
+        "type": "Snack",
+        "price": "80",
+        "available_time": "Evening",
+        "enabled": false
+    },
+    {
+        "id": 23,
+        "restaurant_id": 1,
+        "name": "Robot Dish4",
+        "type": "Breakfast",
+        "price": "60",
+        "available_time": "Morning",
+        "enabled": true
     }
 ]

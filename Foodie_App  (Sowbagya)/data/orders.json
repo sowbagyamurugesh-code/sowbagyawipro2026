@@ -179,5 +179,29 @@
         "restaurant_id": "1",
         "dishes": "[\"Idly\"]",
         "status": "Pending"
+    },
+    {
+        "id": 23,
+        "user_id": 1,
+        "restaurant_id": 1,
+        "dishes": [
+            "Pizza",
+            "Burger"
+        ],
+        "status": "Pending"
+    },
+    {
+        "id": 24,
+        "user_id": "1",
+        "restaurant_id": "1",
+        "dishes": "[\"Idly\",\"Dosa\"]",
+        "status": "Pending"
+    },
+    {
+        "id": 25,
+        "user_id": "1",
+        "restaurant_id": "1",
+        "dishes": "[\"Idly\"]",
+        "status": "Pending"
     }
 ]
